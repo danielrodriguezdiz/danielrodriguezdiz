@@ -34,7 +34,7 @@ En la carrera también he hecho prácticas de concurrencia en C con hilos POSIX,
 
 ### Webs para negocios locales
 
-Éramos cuatro estudiantes. Cada uno buscaba sus clientes y se encargaba de su proyecto, y nos echábamos una mano con el diseño y el código. Hicimos las webs de cuatro bares (Las Vegas, París, Romero y Tokio), una app de reservas para restaurantes, otra para organizar los turnos del personal y una web con reservas para un estudio de tatuajes. Los contratos los generábamos con LuaLaTeX y Python.
+Éramos cuatro estudiantes. Cada uno buscaba sus clientes y se encargaba de su proyecto, y nos echábamos una mano con el diseño y el código. Hicimos las webs de cuatro bares (Las Vegas, París, Romero y Tokio), una app de reservas para restaurantes, otra para organizar los turnos del personal y una web con reservas para un estudio de tatuajes. Los contratos los generábamos con LuaLaTeX y Python. Esas webs fueron demostraciones de lo que podíamos hacer. Vendimos una web con un servicio de cartas online editable.
 
 `HTML` `CSS` `JavaScript`
 
@@ -80,7 +80,7 @@ I've also done coursework on concurrency in C with POSIX threads, networking, Op
 
 ### Websites for local businesses
 
-There were four of us. Each one found their own clients and handled their own project, and we helped each other with design and code. We built websites for four bars (Las Vegas, París, Romero and Tokio), a booking app for restaurants, a shift-planning app for staff and a site with bookings for a tattoo studio. We generated our contracts with LuaLaTeX and Python.
+There were four of us. Each one found their own clients and handled their own project, and we helped each other with design and code. We built websites for four bars (Las Vegas, París, Romero and Tokio), a booking app for restaurants, a shift-planning app for staff and a site with bookings for a tattoo studio. We generated our contracts with LuaLaTeX and Python. Those sites were demos of what we could do. We sold one website, with an editable online menu service.
 
 `HTML` `CSS` `JavaScript`
 
