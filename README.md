@@ -17,8 +17,8 @@ Aprendo rápido y uso la IA como herramienta de trabajo para especializarme en p
 Aplicación de escritorio para gestionar un refugio de animales, desarrollada en un equipo de seis personas. Incluye el diseño del esquema relacional, funciones y triggers en PostgreSQL, y una interfaz en Java Swing conectada mediante JDBC.
 `Java` `Swing` `PostgreSQL` `PL/pgSQL` `JDBC`
 
-**🎲 Monopoly · Programación Orientada a Objetos**
-Versión completa del Monopoly en Java, desarrollada en tres entregas. Tiene una jerarquía de clases para casillas, propiedades, edificios y cartas, interfaces de consola y comandos, intercambio de propiedades entre jugadores y un sistema propio de excepciones para controlar las reglas del juego.
+**🎲 [Monopoly · Programación Orientada a Objetos](https://github.com/mussgr/monopoly-java)**
+Versión completa del Monopoly en Java, desarrollada en tres entregas junto a David Toimil Plaza y Andrés Vázquez Llorente. Tiene una jerarquía de clases para casillas, propiedades, edificios y cartas, interfaces de consola y comandos, intercambio de propiedades entre jugadores y un sistema propio de excepciones para controlar las reglas del juego.
 `Java` `POO` `Herencia` `Polimorfismo` `Excepciones`
 
 **⚡ [Estudios de rendimiento · Arquitectura de Computadores](https://github.com/mussgr/arquitectura-computadores-hpc)**
@@ -67,8 +67,8 @@ I learn fast and use AI as an everyday tool to quickly get up to speed with what
 Desktop application to manage an animal shelter, built by a team of six. Includes the relational schema design, PostgreSQL functions and triggers, and a Java Swing interface connected through JDBC.
 `Java` `Swing` `PostgreSQL` `PL/pgSQL` `JDBC`
 
-**🎲 Monopoly · Object-Oriented Programming**
-A full Monopoly game in Java, built over three milestones. It has a class hierarchy for squares, properties, buildings and cards, console and command interfaces, property trading between players, and a custom exception system to enforce the game rules.
+**🎲 [Monopoly · Object-Oriented Programming](https://github.com/mussgr/monopoly-java)**
+A full Monopoly game in Java, built over three milestones with David Toimil Plaza and Andrés Vázquez Llorente. It has a class hierarchy for squares, properties, buildings and cards, console and command interfaces, property trading between players, and a custom exception system to enforce the game rules.
 `Java` `OOP` `Inheritance` `Polymorphism` `Exceptions`
 
 **⚡ [Performance studies · Computer Architecture](https://github.com/mussgr/arquitectura-computadores-hpc)**
