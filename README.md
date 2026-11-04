@@ -16,13 +16,13 @@ Aplicación de escritorio que hicimos entre seis. Diseñamos el esquema en Postg
 
 `Java` `PostgreSQL` `PL/pgSQL` `JDBC`
 
-#### [Monopoly en Java](https://github.com/mussgr/monopoly-java) (Programación Orientada a Objetos)
+#### [Monopoly en Java](https://github.com/danielrodriguezdiz/monopoly-java) (Programación Orientada a Objetos)
 
 Lo programé con David Toimil Plaza y Andrés Vázquez Llorente a lo largo de tres entregas. Son unas 4.600 líneas: casillas, edificios y cartas se organizan por herencia, y las reglas del juego se controlan con una jerarquía de excepciones propia. El tablero se dibuja en color en la consola.
 
 `Java` `POO`
 
-#### [Estudios de rendimiento en el FinisTerrae III](https://github.com/mussgr/arquitectura-computadores-hpc) (Arquitectura de Computadores)
+#### [Estudios de rendimiento en el FinisTerrae III](https://github.com/danielrodriguezdiz/arquitectura-computadores-hpc) (Arquitectura de Computadores)
 
 Dos informes que escribí con Mateo Rozas González a partir de experimentos en el supercomputador del CESGA. En el primero medimos cuántos ciclos cuesta leer de memoria según el salto entre datos y el tamaño del conjunto, y se ve en qué punto los datos dejan de caber en L1 y L2.
 
@@ -62,13 +62,13 @@ A desktop app built by a team of six. We designed the PostgreSQL schema, with fu
 
 `Java` `PostgreSQL` `PL/pgSQL` `JDBC`
 
-#### [Monopoly in Java](https://github.com/mussgr/monopoly-java) (Object-Oriented Programming)
+#### [Monopoly in Java](https://github.com/danielrodriguezdiz/monopoly-java) (Object-Oriented Programming)
 
 Written with David Toimil Plaza and Andrés Vázquez Llorente over three milestones. It's around 4,600 lines: squares, buildings and cards are modeled through inheritance, and a custom exception hierarchy enforces the game rules. The board is drawn in color in the terminal.
 
 `Java` `OOP`
 
-#### [Performance studies on FinisTerrae III](https://github.com/mussgr/arquitectura-computadores-hpc) (Computer Architecture)
+#### [Performance studies on FinisTerrae III](https://github.com/danielrodriguezdiz/arquitectura-computadores-hpc) (Computer Architecture)
 
 Two reports I wrote with Mateo Rozas González, based on experiments on CESGA's supercomputer. The first measures how many cycles a memory read costs depending on the stride and the data size, and you can see exactly where the data stops fitting in L1 and L2.
 
