@@ -1,111 +1,93 @@
 # Daniel Rodríguez Diz
 
-🇪🇸 [Español](#-español) · 🇬🇧 [English](#-english)
+[Español](#español) · [English](#english) · daniel.rodriguezdiz182002@gmail.com
 
-📫 daniel.rodriguezdiz182002@gmail.com
+## Español
 
----
+Estudio Ingeniería Informática en la Universidad de Santiago de Compostela. Fuera de clase, con otros tres estudiantes, hice webs y pequeñas aplicaciones para negocios de hostelería.
 
-## 🇪🇸 Español
+Aprendo rápido. Cuando un proyecto pide una tecnología que no conozco, me apoyo en la IA para aprenderla sobre la marcha.
 
-Estudiante de Ingeniería Informática en la **Universidad de Santiago de Compostela (USC)**, con experiencia en emprendimientos propios de desarrollo web.
-Aprendo rápido y uso la IA como herramienta de trabajo para especializarme en poco tiempo en la tecnología que pida cada proyecto.
+### Proyectos de la carrera de los que estoy orgulloso
 
-### 🎓 Proyectos destacados de la universidad
+#### Gestión de un refugio de animales (Bases de Datos II)
 
-**🐾 Refugio de animales · Bases de Datos II**
-Aplicación de escritorio para gestionar un refugio de animales, desarrollada en un equipo de seis personas. Incluye el diseño del esquema relacional, funciones y triggers en PostgreSQL, y una interfaz en Java Swing conectada mediante JDBC.
-`Java` `Swing` `PostgreSQL` `PL/pgSQL` `JDBC`
+Aplicación de escritorio que hicimos entre seis. Diseñamos el esquema en PostgreSQL, con funciones y triggers, y la interfaz en Java Swing, conectada a la base de datos por JDBC.
 
-**🎲 [Monopoly · Programación Orientada a Objetos](https://github.com/mussgr/monopoly-java)**
-Versión completa del Monopoly en Java, desarrollada en tres entregas junto a David Toimil Plaza y Andrés Vázquez Llorente. Tiene una jerarquía de clases para casillas, propiedades, edificios y cartas, interfaces de consola y comandos, intercambio de propiedades entre jugadores y un sistema propio de excepciones para controlar las reglas del juego.
-`Java` `POO` `Herencia` `Polimorfismo` `Excepciones`
+`Java` `PostgreSQL` `PL/pgSQL` `JDBC`
 
-**⚡ [Estudios de rendimiento · Arquitectura de Computadores](https://github.com/mussgr/arquitectura-computadores-hpc)**
-Dos informes técnicos, junto a Mateo Rozas González, con experimentos ejecutados en el supercomputador **FinisTerrae III** (CESGA):
-- **Caracterización de la memoria caché**: programa en C que mide el coste en ciclos de cada acceso a memoria variando el patrón de acceso y el tamaño de los datos. Analiza la localidad espacial y temporal, los niveles L1/L2/L3 y el efecto del prefetching.
-- **Optimización del método de Jacobi**: cuatro versiones del algoritmo (secuencial, optimizaciones de código como división de lazos e intercambio de punteros, paralelización con **OpenMP** hasta 64 hilos y vectorización **SIMD AVX256**), comparadas con distintos tamaños de matriz y con los niveles de compilación -O0 y -O3.
+#### [Monopoly en Java](https://github.com/mussgr/monopoly-java) (Programación Orientada a Objetos)
 
-`C` `OpenMP` `SIMD/AVX` `HPC` `Benchmarking`
+Lo programé con David Toimil Plaza y Andrés Vázquez Llorente a lo largo de tres entregas. Son unas 4.600 líneas: casillas, edificios y cartas se organizan por herencia, y las reglas del juego se controlan con una jerarquía de excepciones propia. El tablero se dibuja en color en la consola.
 
-**Otros proyectos de la carrera:** concurrencia en C con hilos POSIX, mutex y variables de condición (Sistemas Operativos II), redes, gráficos con OpenGL, inteligencia artificial y teoría de autómatas.
+`Java` `POO`
 
-### 🚀 Emprendimiento propio · Soluciones web para negocios locales
+#### [Estudios de rendimiento en el FinisTerrae III](https://github.com/mussgr/arquitectura-computadores-hpc) (Arquitectura de Computadores)
 
-Iniciativa emprendedora junto a otros tres estudiantes para llevar soluciones web a pequeños negocios de hostelería y servicios. Cada uno captaba sus propios clientes y desarrollaba su producto, y entre todos nos ayudábamos en el diseño y la implementación.
+Dos informes que escribí con Mateo Rozas González a partir de experimentos en el supercomputador del CESGA. En el primero medimos cuántos ciclos cuesta leer de memoria según el salto entre datos y el tamaño del conjunto, y se ve en qué punto los datos dejan de caber en L1 y L2.
 
-- **Webs para bares**: Bar Las Vegas, Bar París, Bar Romero y Bar Tokio
-- **App de reservas** para gestionar de forma centralizada las reservas de un restaurante
-- **App de turnos** para organizar los horarios del personal de los bares
-- **Custom Tattoo**: web y gestión de reservas para un estudio de tatuajes
-- **Gestión interna**: contratos generados automáticamente con LuaLaTeX y Python
+En el segundo optimizamos el método de Jacobi. Con OpenMP llegamos a unas 54 veces más rápido usando 64 hilos, y con instrucciones AVX256 a unas 4,5. Una conclusión que me llevo: compilando con -O3, muchas de las optimizaciones que habíamos hecho a mano dejaban de notarse, porque el compilador ya las aplicaba.
 
-`HTML` `CSS` `JavaScript` `Python` `LaTeX`
+`C` `OpenMP` `AVX` `SLURM`
 
-### 🏆 Hackathon · Desenreda
+En la carrera también he hecho prácticas de concurrencia en C con hilos POSIX, redes, OpenGL, inteligencia artificial y autómatas.
 
-App que, a partir de una foto de una multa de tráfico, explica en lenguaje sencillo qué es, qué opciones tienes y los plazos para pagar con descuento o presentar alegaciones, y avisa si se trata de una estafa.
-**Mi parte:** la capa de IA, los contenidos y el detector de fraude.
+### Webs para negocios locales
 
-`Python` `TypeScript` `Kotlin` `Docker` `IA`
+Éramos cuatro estudiantes. Cada uno buscaba sus clientes y se encargaba de su proyecto, y nos echábamos una mano con el diseño y el código. Hicimos las webs de cuatro bares (Las Vegas, París, Romero y Tokio), una app de reservas para restaurantes, otra para organizar los turnos del personal y una web con reservas para un estudio de tatuajes. Los contratos los generábamos con LuaLaTeX y Python.
 
-### 🛠️ Proyectos personales
+`HTML` `CSS` `JavaScript`
 
-- **La Gramola de Música**: web interactiva para la clase de Música con temática de Minecraft
-- **Arduino**: proyectos para aprender a fondo el Arduino UNO
+### Hackathon: Desenreda
+
+Una app a la que le haces una foto a una multa de tráfico y te explica qué es, cuánto plazo tienes para pagar con descuento o recurrir, y si huele a estafa. Yo me encargué de la parte de IA, los textos y el detector de fraude.
+
+### Por mi cuenta
+
+La Gramola de Música, una web con temática de Minecraft para la clase de Música, y algunos montajes con Arduino UNO para entender cómo funciona.
 
 ---
 
-## 🇬🇧 English
+## English
 
-Computer Engineering student at the **University of Santiago de Compostela (USC)**, with hands-on experience in my own web development ventures.
-I learn fast and use AI as an everyday tool to quickly get up to speed with whatever technology a project needs.
+I'm a Computer Engineering student at the University of Santiago de Compostela. Outside class, three other students and I built websites and small apps for bars and restaurants.
 
-### 🎓 Featured university projects
+I pick things up quickly. When a project needs a technology I haven't used, I lean on AI to learn it as I go.
 
-**🐾 Animal shelter · Databases II**
-Desktop application to manage an animal shelter, built by a team of six. Includes the relational schema design, PostgreSQL functions and triggers, and a Java Swing interface connected through JDBC.
-`Java` `Swing` `PostgreSQL` `PL/pgSQL` `JDBC`
+### University projects I'm proud of
 
-**🎲 [Monopoly · Object-Oriented Programming](https://github.com/mussgr/monopoly-java)**
-A full Monopoly game in Java, built over three milestones with David Toimil Plaza and Andrés Vázquez Llorente. It has a class hierarchy for squares, properties, buildings and cards, console and command interfaces, property trading between players, and a custom exception system to enforce the game rules.
-`Java` `OOP` `Inheritance` `Polymorphism` `Exceptions`
+#### Animal shelter management (Databases II)
 
-**⚡ [Performance studies · Computer Architecture](https://github.com/mussgr/arquitectura-computadores-hpc)**
-Two technical reports, co-authored with Mateo Rozas González, with experiments run on the **FinisTerrae III** supercomputer (CESGA):
-- **Cache memory characterization**: a C program that measures the cycle cost of each memory access while varying the access pattern and data size. It analyzes spatial and temporal locality, the L1/L2/L3 levels and the effect of prefetching.
-- **Optimizing the Jacobi method**: four versions of the algorithm (sequential, code optimizations such as loop splitting and pointer swapping, **OpenMP** parallelization up to 64 threads, and **SIMD AVX256** vectorization), compared across matrix sizes and the -O0 and -O3 compiler levels.
+A desktop app built by a team of six. We designed the PostgreSQL schema, with functions and triggers, and a Java Swing interface that talks to the database through JDBC.
 
-`C` `OpenMP` `SIMD/AVX` `HPC` `Benchmarking`
+`Java` `PostgreSQL` `PL/pgSQL` `JDBC`
 
-**Other coursework:** concurrency in C with POSIX threads, mutexes and condition variables (Operating Systems II), networking, OpenGL graphics, artificial intelligence and automata theory.
+#### [Monopoly in Java](https://github.com/mussgr/monopoly-java) (Object-Oriented Programming)
 
-### 🚀 Own venture · Web solutions for local businesses
+Written with David Toimil Plaza and Andrés Vázquez Llorente over three milestones. It's around 4,600 lines: squares, buildings and cards are modeled through inheritance, and a custom exception hierarchy enforces the game rules. The board is drawn in color in the terminal.
 
-A student venture with three other students to bring web solutions to small hospitality and service businesses. Each of us found our own clients and built their product, and we all helped each other with design and implementation.
+`Java` `OOP`
 
-- **Websites for bars**: Bar Las Vegas, Bar París, Bar Romero and Bar Tokio
-- **Booking app** to manage a restaurant's reservations in one place
-- **Shift-planning app** to organize bar staff schedules
-- **Custom Tattoo**: website and booking management for a tattoo studio
-- **Internal tooling**: contracts generated automatically with LuaLaTeX and Python
+#### [Performance studies on FinisTerrae III](https://github.com/mussgr/arquitectura-computadores-hpc) (Computer Architecture)
 
-`HTML` `CSS` `JavaScript` `Python` `LaTeX`
+Two reports I wrote with Mateo Rozas González, based on experiments on CESGA's supercomputer. The first measures how many cycles a memory read costs depending on the stride and the data size, and you can see exactly where the data stops fitting in L1 and L2.
 
-### 🏆 Hackathon · Desenreda
+The second is about optimizing the Jacobi method. OpenMP got us about a 54x speedup with 64 threads, and AVX256 about 4.5x. One takeaway: with -O3, many of our hand-made optimizations stopped making a difference, because the compiler was already doing them.
 
-An app that takes a photo of a traffic fine and explains in plain language what it is, what your options are and the deadlines to pay with a discount or appeal, and flags it if it's a scam.
-**My part:** the AI layer, the content and the fraud detector.
+`C` `OpenMP` `AVX` `SLURM`
 
-`Python` `TypeScript` `Kotlin` `Docker` `AI`
+I've also done coursework on concurrency in C with POSIX threads, networking, OpenGL, AI and automata.
 
-### 🛠️ Personal projects
+### Websites for local businesses
 
-- **La Gramola de Música**: interactive website for a Music class with a Minecraft theme
-- **Arduino**: projects to learn the Arduino UNO in depth
+There were four of us. Each one found their own clients and handled their own project, and we helped each other with design and code. We built websites for four bars (Las Vegas, París, Romero and Tokio), a booking app for restaurants, a shift-planning app for staff and a site with bookings for a tattoo studio. We generated our contracts with LuaLaTeX and Python.
 
----
+`HTML` `CSS` `JavaScript`
 
-### 🧰 Tech
+### Hackathon: Desenreda
 
-`C` `Java` `Python` `JavaScript` `TypeScript` `HTML/CSS` `SQL · PostgreSQL` `OpenMP` `SIMD` `Docker` `Git` `LaTeX` `Arduino`
+You take a photo of a traffic fine and the app tells you what it is, how long you have to pay at a discount or appeal, and whether it looks like a scam. I worked on the AI part, the written content and the fraud detector.
+
+### On my own
+
+La Gramola de Música, a Minecraft-themed website for a Music class, and a few Arduino UNO builds to learn how it works.
